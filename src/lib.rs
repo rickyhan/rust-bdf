@@ -20,7 +20,7 @@ mod bitmap;
 pub use self::bitmap::Bitmap;
 
 mod font;
-pub use self::font::Font;
+pub use self::font::{Font, Size};
 
 mod entry;
 pub use self::entry::Entry;
